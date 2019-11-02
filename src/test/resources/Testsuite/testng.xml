@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Automation Suite" parallel="false">
+
+	<listeners>
+		<listener class-name="com.QA.Listeners.ExtentReporterNG" />
+	</listeners>
+
+	<test name="LoginTest">
+		<!-- Parameters for the Tests" -->
+	<!--parameter name="browser" value="Edge"></parameter> -->
+	<!--parameter name="browser" value="Firefox"></parameter> -->
+	<parameter name="browser" value="Chrome"></parameter>
+	<parameter name="url"
+		value="https://snapengage-qa.appspot.com/signin?to=hub"></parameter>
+	<parameter name="expectedTitle" value="Hub"></parameter>
+	<parameter name="expectedUrl" value="https://snapengage-qa.appspot.com/hub"></parameter>
+		<classes>
+			<class name="com.QA.Testcase.LoginTest"></class>
+		</classes>
+	</test>
+</suite>
+
+

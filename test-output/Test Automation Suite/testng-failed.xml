@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Automation Suite]">
+  <listeners>
+    <listener class-name="com.QA.Listeners.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="LoginTest(failed)">
+    <parameter name="expectedUrl" value="https://snapengage-qa.appspot.com/hub"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="expectedTitle" value="Hub"/>
+    <parameter name="url" value="https://snapengage-qa.appspot.com/signin?to=hub"/>
+    <classes>
+      <class name="com.QA.Testcase.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.QA.Testcase.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [Test Automation Suite] -->

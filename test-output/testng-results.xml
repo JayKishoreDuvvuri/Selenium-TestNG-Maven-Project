@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Automation Suite" duration-ms="31425" started-at="2019-11-02T19:55:08Z" finished-at="2019-11-02T19:55:39Z">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="31425" started-at="2019-11-02T19:55:08Z" finished-at="2019-11-02T19:55:39Z">
+      <class name="com.QA.Testcase.LoginTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.QA.Testcase.LoginTest@cb0ed20]" name="setUp" is-config="true" duration-ms="20763" started-at="2019-11-02T19:55:08Z" finished-at="2019-11-02T19:55:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://snapengage-qa.appspot.com/signin?to=hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.QA.Testcase.LoginTest@cb0ed20]" name="loginTest" duration-ms="8543" started-at="2019-11-02T19:55:29Z" finished-at="2019-11-02T19:55:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://snapengage-qa.appspot.com/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.QA.Testcase.LoginTest@cb0ed20]" name="tearDown" is-config="true" duration-ms="2042" started-at="2019-11-02T19:55:37Z" finished-at="2019-11-02T19:55:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.QA.Testcase.LoginTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- Test Automation Suite -->
+</testng-results>
